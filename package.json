@@ -1,0 +1,19 @@
+{
+  "name": "@addison-global/native-technical-test",
+  "version": "1.0.0",
+  "description": "Addison Global React Native Tech test consisting in creating a React Native native UI component for either Android or iOS.",
+  "main": "index.js",
+  "repository": "https://github.com/addisonglobal/native-technical-test.git",
+  "author": "Joao Ribeiro <joao.ribeiro@addisongloballtd.com>",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^2.9.0",
+    "react-native-create-bridge": "^2.0.1"
+  },
+  "scripts": {
+    "bootstrap": "lerna bootstrap"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
