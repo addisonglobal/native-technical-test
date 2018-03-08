@@ -76,7 +76,7 @@ git clone git@github.com:addisonglobal/native-technical-test.git
 4. Bootstrap the project
 
 ```bash
-yarn install && yarn bootrap
+yarn install && yarn bootstrap
 ```
 
 5. Navigate to the app folder and start the project
@@ -97,7 +97,7 @@ yarn android
 * iOS
 
 ```bash
-yarn android
+yarn ios
 ```
 
 > You can also run the app through `xcode` or `Android Studio`. See [Building Projects with Native Code]((https://facebook.github.io/react-native/docs/getting-started.html)) section of the docs.
